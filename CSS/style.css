@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.page-holder {
+    display: flex;
+    flex-direction: column;
+}
+.banner {
+    background-image: url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 99vh;
+    
+}
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 3px;
+    color: white;
+    width: 62%;
+    margin: 301px 0px 0px 126px;
+}
+.banner-text h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3.75rem;
+    letter-spacing: 3px;
+}
+.banner-text h2{
+    font-family: 'Archivo Black', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 7rem;
+}
+.banner-border{
+    border: solid;
+    background-color: white;
+    border-color: white;
+    height: 10px;
+    max-width: 79vh;
+}
+.banner-icons{
+    display: flex;
+    flex-direction: row;
+    max-width: 0px;
+}
+.banner-icons p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+.book-now{
+    height: 67vh;
+    background-color: #f2f2f2;
+}
+.book-now h2{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.call-us-container {
+    display: flex;
+    flex-direction: row;
+}
+.call-img1{
+    height: 50px;
+}
+.banner2 {
+    background-image: url(../images/billionphotos1079319min.png);
+    background-repeat: no-repeat;
+    height: 85vh;
+}
+.banner2-box{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.service-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-sec {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+}
+.img-grid{
+    display: grid;
+}
+.footer {
+    background-color: gray;
+    
+}
