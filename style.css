@@ -3,6 +3,11 @@
     box-sizing: border-box;
     
 }
+button{
+    color: white;
+    background-color: #e71a23;
+    border: none;
+}
 .page-holder {
     display: flex;
     flex-direction: column;
@@ -54,43 +59,165 @@
 .book-now{
     height: 67vh;
     background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .book-now h2{
     font-family: 'Roboto', sans-serif;
     
 }
+.book-now p{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
 .call-us-container {
+    justify-content: center;
     display: flex;
     flex-direction: row;
+    height: 80vh;
+    margin: 20px;
 }
+.call-us2 {
+   margin-left: 20px;
+}
+.call-us1 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    max-width: 389px;
+}
+.call-us2 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    max-width: 305px;
+}
+
 .call-img1{
     height: 50px;
 }
+
 .banner2 {
     background-image: url(images/billionphotos1079319min.png);
     background-repeat: no-repeat;
-    height: 85vh;
+    background-size:contain;
+    background-position: 10%;
+    height: 85vh; 
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+   
 }
 .banner2-box{
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
+    flex-direction: column;
+    max-width: 590px;
 }
-
+.banner2-box h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 71px;
+    color: #104e92;
+   
+}
+.banner2-border{
+    border: solid;
+    background-color: #e71a23;
+    border-color: #e71a23;
+    height: 10px;
+    max-width: 79vh;
+}
+.banner2-box p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+}
+.our-services {
+     height: 496px;
+}
 .service-container {
     display: flex;
     flex-direction: row;
+   
 }
 
 .grid-sec {
     background-color: blue;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    height: 80vh;
 }
-.img-grid{
-    display: grid;
+#grid-img1 {
+    background-image: url(images/frg.jpg);
+    
 }
+#grid-img2 {
+    background-image: url(images/rg.jpg);
+}
+#grid-img3 {
+    background-image: url(images/billionphotos1882993.jpg);
+}
+#grid-img4 {
+    background-image: url(images/billionphotos1882951.jpg);
+    
+    
+}
+.img-grid {
+    width: 137vh;
+    height: 46vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.grid-img{
+    width: 19rem;
+    height: 17rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 35%;
+   
+}
+.grid-row {
+   display: flex;
+   flex-direction: row;
+   height: 14vh;
+   width: 65vh;
+   justify-content: space-between
+}
+
 .footer {
-    background-color: gray;
+    background-color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20rem;
+    
+}
+.Todo-container {
+    height: 41rem;
+}
+.Todo-container h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+}
+.Todo-container p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 27px;
+}
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer p {
+
+    width: 29rem;
+    text-align: center;
     
 }
