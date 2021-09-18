@@ -8,7 +8,7 @@
     flex-direction: column;
 }
 .banner {
-    background-image: url(../images/hero-bg.jpg);
+    background-image: url(images/hero-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 99vh;
@@ -67,7 +67,7 @@
     height: 50px;
 }
 .banner2 {
-    background-image: url(../images/billionphotos1079319min.png);
+    background-image: url(images/billionphotos1079319min.png);
     background-repeat: no-repeat;
     height: 85vh;
 }
