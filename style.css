@@ -6,7 +6,13 @@
 button{
     color: white;
     background-color: #e71a23;
-    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    border: none;;
+    height: 57px;
+    border-radius: 6px;
+    width: 11rem;
 }
 .page-holder {
     display: flex;
@@ -64,13 +70,26 @@ button{
     justify-content: center;
     align-items: center;
 }
+.book-now h4{
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 23px;
+}
 .book-now h2{
     font-family: 'Roboto', sans-serif;
-    
+    font-size: 48px;
+    line-height: 107px;
+
 }
 .book-now p{
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+    width: 815px;
+    line-height: 33px;
 }
 
 .call-us-container {
@@ -136,18 +155,41 @@ button{
 .our-services {
      height: 496px;
 }
+.icon-con {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    border-radius: 50%;
+    width: 73px;
+    height: 73px;
+    
+}
+.icon-con img {
+    width: 46px;
+}
 .service-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
    
+}
+.service-container h4 {
+    font-family: 'Roboto', sans-serif;
+}
+.service-container p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 20px;
+    width: 27rem;
 }
 
 .grid-sec {
-    background-color: blue;
+    background-color: #104e92;
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 80vh;
+    height: 74vh;
 }
 #grid-img1 {
     background-image: url(images/frg.jpg);
@@ -165,7 +207,7 @@ button{
     
 }
 .img-grid {
-    width: 137vh;
+    width: 146vh;
     height: 46vh;
     display: flex;
     flex-direction: column;
@@ -173,8 +215,8 @@ button{
     justify-content: space-between;
 }
 .grid-img{
-    width: 19rem;
-    height: 17rem;
+    width: 18rem;
+    height: 16rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 35%;
@@ -183,8 +225,8 @@ button{
 .grid-row {
    display: flex;
    flex-direction: row;
-   height: 14vh;
-   width: 65vh;
+   height: 9rem;
+   width: 39rem;
    justify-content: space-between
 }
 
@@ -201,14 +243,28 @@ button{
 }
 .Todo-container {
     height: 41rem;
+    text-align: center;
+}
+.todo-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 363px;
+    align-items: center;
 }
 .Todo-container h3{
     font-family: 'Roboto', sans-serif;
-    font-size: 27px;
+    font-size: 35px;
+    font-weight: 900;
+    width: 53rem;
+    margin-bottom: 20px;
 }
 .Todo-container p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 27px;
+    font-size: 29px;
+    font-weight: lighter;
+    width: 51rem;
+    line-height: 49px;
 }
 .footer-text {
     display: flex;
