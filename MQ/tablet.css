@@ -3,7 +3,6 @@
         margin: 0;
     }
     body {
-      background-color: blue;
       display: block;
       margin: 0;
       width: 100%;
@@ -24,7 +23,7 @@
         display: block;
     }
     .banner {
-        background-image: url(images/hero-bg.jpg);
+        background-image: url(../images/hero-bg.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 85vh;
@@ -45,7 +44,7 @@
         font-weight: 300;
         font-size: 3.75rem;
         letter-spacing: 3px;
-        margin-top: 250px;
+        margin-top: 180px;
     }
     .banner-text h2{
         font-family: 'Archivo Black', sans-serif;
@@ -109,7 +108,7 @@
     .call-us-container {
         display: flex;
         flex-direction: column;
-        height: 100vh;
+        height: 146vh;
     }
     .call-us1{
         width: fit-content;
@@ -124,14 +123,27 @@
     }
     .call-us2 p{
         font-family: 'Roboto', sans-serif;
-        font-size: 35px;
+        font-size: 28px;
         font-weight: bolder;
         width: 487px;
-        line-height: 93px;
+        line-height: 53px;
     }
     
     .call-img1{
-        height: 389px;
+        width: 100%;
+        height: 305px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .call-img2{
+        width: 100%;
+        height: 305px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
     }
     .call1-text {
         display: flex;
@@ -141,10 +153,10 @@
         height: 169px;
     }
     .banner-bg {
-        background-image: url(images/background.jpg);
+        background-image: url(../images/background.jpg);
     }
     .banner2 {
-        background-image: url(images/billionphotos1079319min.png);
+        background-image: url(../images/billionphotos1079319min.png);
         background-repeat: no-repeat;
         background-size:contain;
         background-position: 10%;
@@ -157,12 +169,13 @@
     .banner2-box{
         display: flex;
         flex-direction: column;
-        width: 60rem;
+        width: 35rem;
     }
     .banner2-box h3{
         font-family: 'Roboto', sans-serif;
-        font-size: 71px;
+        font-size: 45px;
         color: #104e92;
+        width: 256px;
        
     }
     .banner2-border{
@@ -170,13 +183,13 @@
         background-color: #e71a23;
         border-color: #e71a23;
         height: 10px;
-        max-width: 79vh;
+        max-width: 43vh;
     }
     .banner2-box p{
         font-family: 'Open Sans', sans-serif;
-        font-size: 21px;
-        width: 43rem;
-        line-height: 34px;
+        font-size: 16px;
+        width: 25rem;
+        line-height: 25px;
         margin-top: 16px;
     }
     .our-services {
@@ -234,8 +247,8 @@
         font-family: 'Open Sans', sans-serif;
         font-style: italic;
         font-weight: lighter;
-        font-size: 20px;
-        width: 15rem;
+        font-size: 17px;
+        width: 13rem;
     }
     
     .grid-sec {
@@ -243,7 +256,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 74vh;
+        height: 100vh;
     }
     .sec-holder{
         flex-direction: column;
@@ -251,20 +264,21 @@
         align-items: center;
         align-self: flex-start;
         height: 62vh;
+        width: 100%;
         color: white;
     }
     #grid-img1 {
-        background-image: url(images/frg.jpg);
+        background-image: url(../images/frg.jpg);
         
     }
     #grid-img2 {
-        background-image: url(images/rg.jpg);
+        background-image: url(../images/rg.jpg);
     }
     #grid-img3 {
-        background-image: url(images/billionphotos1882993.jpg);
+        background-image: url(../images/billionphotos1882993.jpg);
     }
     #grid-img4 {
-        background-image: url(images/billionphotos1882951.jpg);
+        background-image: url(../images/billionphotos1882951.jpg);
         
     }
     .about-holder {
@@ -276,14 +290,14 @@
     .about1 {
         display: flex;
         flex-direction: row;
-        width: 44rem;
+        width: 35rem;
         justify-content: center;
         
     }
     .about2 {
         display: flex;
         flex-direction: row;
-        width: 41rem;
+        width: 46rem;
         align-self: flex-end;
     }
     .about-holder h4{
@@ -294,8 +308,8 @@
     }
     .about-holder p{
         font-family: 'Roboto', sans-serif;
-        font-size: 94px;
-        margin-right: 80px;
+        font-size: 62px;
+        margin-bottom: 40px;
     }
     .img-grid {
         width: 65vh;

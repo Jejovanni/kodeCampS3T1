@@ -20,7 +20,7 @@ button{
     flex-direction: column;
 }
 .banner {
-    background-image: url(images/hero-bg.jpg);
+    background-image: url(./images/hero-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 99vh;
@@ -134,10 +134,10 @@ button{
     height: 169px;
 }
 .banner-bg {
-    background-image: url(images/background.jpg);
+    background-image: url(./images/background.jpg);
 }
 .banner2 {
-    background-image: url(images/billionphotos1079319min.png);
+    background-image: url(./images/billionphotos1079319min.png);
     background-repeat: no-repeat;
     background-size:contain;
     background-position: 10%;
@@ -238,17 +238,17 @@ button{
     color: white;
 }
 #grid-img1 {
-    background-image: url(images/frg.jpg);
+    background-image: url(./images/frg.jpg);
     
 }
 #grid-img2 {
-    background-image: url(images/rg.jpg);
+    background-image: url(./images/rg.jpg);
 }
 #grid-img3 {
-    background-image: url(images/billionphotos1882993.jpg);
+    background-image: url(./images/billionphotos1882993.jpg);
 }
 #grid-img4 {
-    background-image: url(images/billionphotos1882951.jpg);
+    background-image: url(./images/billionphotos1882951.jpg);
     
 }
 .about-holder {
