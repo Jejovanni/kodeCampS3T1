@@ -101,7 +101,7 @@
         text-align: center;
         font-size: 21px;
         font-weight: lighter;
-        width: 815px;
+        width: 621px;
         line-height: 33px;
     }
     
@@ -169,13 +169,14 @@
     .banner2-box{
         display: flex;
         flex-direction: column;
-        width: 35rem;
+        width: 22rem;
     }
     .banner2-box h3{
         font-family: 'Roboto', sans-serif;
         font-size: 45px;
         color: #104e92;
         width: 256px;
+        margin-left: -67px;
        
     }
     .banner2-border{
@@ -184,6 +185,7 @@
         border-color: #e71a23;
         height: 10px;
         max-width: 43vh;
+        margin-left: -67px;
     }
     .banner2-box p{
         font-family: 'Open Sans', sans-serif;
@@ -191,6 +193,10 @@
         width: 25rem;
         line-height: 25px;
         margin-top: 16px;
+        margin-left: -67px;
+    }
+    .banner-btn-container {
+        margin-left: -67px;
     }
     .our-services {
          height: 496px;
