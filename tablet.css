@@ -1,0 +1,387 @@
+@media screen and (max-width: 993px) {
+    *{
+        margin: 0;
+    }
+    body {
+      background-color: blue;
+      display: block;
+      margin: 0;
+      width: 100%;
+    }
+    button{
+        color: white;
+        background-color: #e71a23;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        font-weight: bolder;
+        border: none;;
+        height: 57px;
+        border-radius: 6px;
+        width: 11rem;
+        margin-top: 20px;
+    }
+    .page-holder {
+        display: block;
+    }
+    .banner {
+        background-image: url(images/hero-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 85vh;
+        background-position: right;
+        
+    }
+    .banner-text {
+        display: flex;
+        flex-direction: column;
+        letter-spacing: 3px;
+        color: white;
+        width: 57%;
+        margin: 0 0 0 48px;
+    }
+    .banner-text h1{
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 3.75rem;
+        letter-spacing: 3px;
+        margin-top: 250px;
+    }
+    .banner-text h2{
+        font-family: 'Archivo Black', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 81px;
+    }
+    .banner-border{
+        border: solid;
+        background-color: white;
+        border-color: white;
+        height: 10px;
+        max-width: 63vh;
+    }
+    .banner-icons{
+        display: flex;
+        flex-direction: row;
+        max-width: 33rem;
+        justify-content: space-between;
+        line-height: 33px;
+        margin-top: 40px;
+    }
+    .banner-icons img{
+        margin-left: 10px;
+    }
+    .banner-icons p{
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+    }
+    .book-now{
+        height: 67vh;
+        background-color: #f2f2f2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .book-now h4{
+        color: #999999;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 23px;
+    }
+    .book-now h2{
+        font-family: 'Roboto', sans-serif;
+        font-size: 48px;
+        line-height: 107px;
+    
+    }
+    .book-now p{
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        font-size: 21px;
+        font-weight: lighter;
+        width: 815px;
+        line-height: 33px;
+    }
+    
+    .call-us-container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .call-us1{
+        width: fit-content;
+    }
+    .call-us2 {
+       margin-left: 0px;
+    }
+    .call-us1 p{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .call-us2 p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 35px;
+        font-weight: bolder;
+        width: 487px;
+        line-height: 93px;
+    }
+    
+    .call-img1{
+        height: 389px;
+    }
+    .call1-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        height: 169px;
+    }
+    .banner-bg {
+        background-image: url(images/background.jpg);
+    }
+    .banner2 {
+        background-image: url(images/billionphotos1079319min.png);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position: 10%;
+        height: 85vh; 
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+       
+    }
+    .banner2-box{
+        display: flex;
+        flex-direction: column;
+        width: 60rem;
+    }
+    .banner2-box h3{
+        font-family: 'Roboto', sans-serif;
+        font-size: 71px;
+        color: #104e92;
+       
+    }
+    .banner2-border{
+        border: solid;
+        background-color: #e71a23;
+        border-color: #e71a23;
+        height: 10px;
+        max-width: 79vh;
+    }
+    .banner2-box p{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 21px;
+        width: 43rem;
+        line-height: 34px;
+        margin-top: 16px;
+    }
+    .our-services {
+         height: 496px;
+    }
+    .service-holder {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .our-services-text h3{
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        font-weight: bolder;
+        line-height: 131px;
+        padding-left: 100px;
+        width: 29rem;
+    }
+    .painting h4, .electrical h4, .repair h4 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .painting {
+        margin-left: -50px;
+    }
+    .electrical {
+        margin-left: -74px;
+    }
+    .repair {
+        margin-left: -74px;
+    }
+    .icon-con {
+        display: flex;
+        justify-content: center;
+        background-color: red;
+        border-radius: 50%;
+        width: 73px;
+        height: 73px;
+        
+    }
+    .icon-con img {
+        width: 46px;
+    }
+    .service-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+       
+    }
+    .service-container h4 {
+        font-family: 'Roboto', sans-serif;
+    }
+    .service-container p {
+        font-family: 'Open Sans', sans-serif;
+        font-style: italic;
+        font-weight: lighter;
+        font-size: 20px;
+        width: 15rem;
+    }
+    
+    .grid-sec {
+        background-color: #104e92;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 74vh;
+    }
+    .sec-holder{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        align-self: flex-start;
+        height: 62vh;
+        color: white;
+    }
+    #grid-img1 {
+        background-image: url(images/frg.jpg);
+        
+    }
+    #grid-img2 {
+        background-image: url(images/rg.jpg);
+    }
+    #grid-img3 {
+        background-image: url(images/billionphotos1882993.jpg);
+    }
+    #grid-img4 {
+        background-image: url(images/billionphotos1882951.jpg);
+        
+    }
+    .about-holder {
+        width: 60rem;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .about1 {
+        display: flex;
+        flex-direction: row;
+        width: 44rem;
+        justify-content: center;
+        
+    }
+    .about2 {
+        display: flex;
+        flex-direction: row;
+        width: 41rem;
+        align-self: flex-end;
+    }
+    .about-holder h4{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        margin-right: 10px;
+        font-weight: lighter;
+    }
+    .about-holder p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 94px;
+        margin-right: 80px;
+    }
+    .img-grid {
+        width: 65vh;
+        height: 46vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    .grid-img{
+        width: 18rem;
+        height: 16rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 35%;
+       
+    }
+    .grid-row {
+       display: flex;
+       flex-direction: row;
+       height: 9rem;
+       width: 39rem;
+       justify-content: space-between
+    }
+    #row1 {
+        height: 46vh;
+    }
+    #row-2 {
+        margin-top: 40px;
+    }
+    
+    .footer {
+        background-color: #333333;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 20rem;
+        
+    }
+    .Todo-container {
+        height: 41rem;
+        text-align: center;
+    }
+    .todo-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 363px;
+        align-items: center;
+    }
+    .todo-btn1 {
+        margin-right: 20px;
+    }
+    .Todo-container h3{
+        font-family: 'Roboto', sans-serif;
+        font-size: 35px;
+        font-weight: 900;
+        width: 53rem;
+        margin-bottom: 20px;
+    }
+    .Todo-container p{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 29px;
+        font-weight: lighter;
+        width: 51rem;
+        line-height: 49px;
+    }
+    .footer-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer p {
+    
+        width: 29rem;
+        text-align: center;
+        
+    }
+    .link-text{
+        margin-top: 79px;
+        font-size: 13px;
+    }
+    .link-text a{
+        color: #259bca;
+    }
+  }
