@@ -268,10 +268,11 @@
         flex-direction: column;
         display: flex;
         align-items: center;
-        align-self: flex-start;
+        align-self: center;
         height: 62vh;
-        width: 100%;
+        width: 67%;
         color: white;
+        margin-top: 36px;
     }
     #grid-img1 {
         background-image: url(../images/frg.jpg);
@@ -288,7 +289,7 @@
         
     }
     .about-holder {
-        width: 60rem;
+        width: 41rem;
         display: flex;
         flex-direction: column;
     
@@ -297,14 +298,14 @@
         display: flex;
         flex-direction: row;
         width: 35rem;
-        justify-content: center;
+        justify-content: flex-start;
         
     }
     .about2 {
         display: flex;
         flex-direction: row;
         width: 46rem;
-        align-self: flex-end;
+        align-self: auto;
     }
     .about-holder h4{
         font-family: 'Montserrat', sans-serif;
@@ -324,6 +325,7 @@
         flex-direction: column;
         align-items: flex-end;
         justify-content: space-between;
+        margin-left: 56px;
     }
     .grid-img{
         width: 18rem;
@@ -381,10 +383,10 @@
     }
     .Todo-container p{
         font-family: 'Open Sans', sans-serif;
-        font-size: 29px;
+        font-size: 24px;
         font-weight: lighter;
-        width: 51rem;
-        line-height: 49px;
+        width: 42rem;
+        line-height: 44px;
     }
     .footer-text {
         display: flex;
