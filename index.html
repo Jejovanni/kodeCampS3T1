@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
 
@@ -15,27 +15,29 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" media="screen and (max-width: 993px)" href="./MQ/tablet.css">
-    <title>Document</title>
+<link rel="stylesheet" href="./styles.css">
+<link rel="stylesheet" media="screen and (max-width: 425px)" href="./MQ/phone.css">
+    <title>Landing page Mock</title>
 </head>
 <body>
-    <nav><img src="icons/menu.svg" alt=""></nav>
-    <div class="page-holder">
-        <div class="banner" > 
-            <div class="banner-text">
-                <h1>HOUSE REPAIR</h1>
-                <h2>SERVICES</h2>
-                <div class="banner-border"></div>
-                <div class="banner-icons">
-                    <div class="banner-icon"> <img src="./icons/paint-brush.svg" alt=""> <p>PAINTING</p></div>
-                    <div class="banner-icon"><img src="./icons/cleaning-bucket.svg" alt=""><p>CLEANING</p></div>
-                    <div class="banner-icon"><img src="./icons/tap.svg" alt=""><p>PLUMBING</p></div>
+    <nav> <div class="nav-box"><p>Logo</p><div> <img src="icons/menu.svg" alt=""></div></div> </nav>
+    <section class="banner">
+            <div class="banner-holder">
+                <div class="banner-text">
+                    <div class="banner-heading">
+                        <h1 class="font1">HOUSE REPAIR</h1>
+                        <h2 class="font2">SERVICES</h2>
+                    </div>
+                    <div class="banner-border"></div>
+                    <div class="banner-icons">
+                        <div class="banner-icon"> <img src="./icons/paint-brush.svg" alt=""> <p class="font1">PAINTING</p></div>
+                        <div class="banner-icon"><img src="./icons/cleaning-bucket.svg" alt=""><p class="font1">CLEANING</p></div>
+                        <div class="banner-icon"><img src="./icons/tap.svg" alt=""><p class="font1">PLUMBING</p></div>
+                    </div>
                 </div>
-                
             </div>
-        </div>
+    </section>
+    <section class="banner2">
         <div class="book-now">
             <h4>OUR SERVICES</h4>
             <h2>How Can We Help You?</h2>
@@ -45,6 +47,8 @@
                 <form action="submit"><button type="submit">BOOK NOW</button></form>
                 </div>
         </div>
+    </section>
+    <section class="banner3">
         <div class="call-us-container">
             <div class="call-us1">
                 <div class="call-img1">
@@ -63,18 +67,20 @@
                 </div>
             </div>
         </div>
-        <div class="banner-bg">
-            <div class="banner2">
-                <div class="banner2-box">
+    </section>
+    <section class="banner4">
+            <div class="row-holder">
+                <div class="image-holder"> </div>
+                <div class="banner4-box">
                     <h3>BEST QUALITY</h3>
-                    <div class="banner2-border"></div>
+                   <div class="banner4-border"></div>
                         <p>Company works with homeowners, contractors, realtors, and residential building managers to help maintain, 
                             upgrade, and repair properties</p>
                         <div class="banner-btn-container"><button>BOOK NOW</button></div>
                 </div>
             </div>
-        </div>
-        <div class="our-services">
+    </section>
+    <section class="banner5">
             <div class="service-holder">
                 <div class="our-services-text">
                     <h3>OUR SERVICES</h3>
@@ -97,17 +103,13 @@
                         <p>We'll send a multi-skilled repairman to your residential or commercial property so you save the time and...</p>
                     </div>
                 </div>
-            </div>    
-        </div>
-           
-
+            </div>
+    </section>
+    <section class="banner6">
         <div class="grid-sec">
-            <div class="sec-holder">
                 <div class="about-holder">
                     <div class="about1"> <h4>ABOUT US</h4></div>
                     <div class="about2"><p>Plumbing Services</p></div>
-                   
-                    
                 </div>
                 <div class="img-grid">
                     <div id="row1" class="grid-row">
@@ -119,25 +121,28 @@
                         <div id="grid-img4" class="grid-img"> </div>
                     </div>
                 </div>
-            </div>
         </div>
+    </section>
+    <section class="banner7" >
         <div class="Todo-container">
             <div class="todo-text">
-            <h3>Get your 'TO DO' list completed by a real professional!</h3>
-            <p>We’re on a mission to help build long-lasting brands that shape 
-                and define an entire industry through thoughtful design.</p>
-                </div>
+                <h3>Get your 'TO DO' list completed by a real professional!</h3>
+                <p>We’re on a mission to help build long-lasting brands that shape 
+                    and define an entire industry through thoughtful design.</p>
+            </div>
                 <div class="Todo-btn">
                     <button class="todo-btn1">BOOK NOW</button>
                     <button class="todp-btn2">CALL US</button>
                 </div>
         </div>
+    </section>
+    <section class="banner8">
         <div class="footer">
             <div class="footer-text">
                 <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
                 <p class="link-text"> <a href="#">Website Templates</a> created with <a href="#">Website Builder Software.</a></p>
             </div>
         </div>
-    </div>
+    </section>
 </body>
 </html>
